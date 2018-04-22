@@ -1,5 +1,4 @@
-![picture](img/logo.png)
-
+![picture](ItemPromoter/Item Promoter/DCdev_logo.png)
 
 # ItemPromoter
 
