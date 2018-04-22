@@ -17,8 +17,12 @@ DCdev - 2018
 ### Know bug:
 If the user first interaction is click on navbar link to a section (except the second) the section jumbotron is misplaced;
 
+### Language:
+Italian
 ### License:
 Feel free to fork it and change for your personal need, just give credit if you apriciate my work.
+
+
 
 ### Contact:
 dcdevservice@gmail.com
