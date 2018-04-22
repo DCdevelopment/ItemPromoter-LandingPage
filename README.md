@@ -1,3 +1,6 @@
+![picture](img/logo.png)
+
+
 # ItemPromoter
 
 Responsive landing page for item promotion, some JS animation.
