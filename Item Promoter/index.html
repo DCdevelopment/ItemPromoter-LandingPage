@@ -1,5 +1,4 @@
 <!doctype html>
-<!-- Hosted on Ghithub repo dcdevservice@ -->
 <html lang="it">
 
 <head>
@@ -14,12 +13,10 @@
     <title>ItemPromotionLP</title>
     <script src="jquery-3.3.1.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+    <!-- import Google font "Montserrat"-->
     <link href='https://fonts.googleapis.com/css?family=Montserrat|Quicksand' rel='stylesheet'>
-    <style>
-        body {
-            font-family: 'Quicksand';
-        }
-    </style>
+
+
 
 
 </head>
@@ -37,15 +34,19 @@
                 <ul class="navbar-nav mr-auto">
 
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="#" style="margin-right: 40px; margin-left: 80px">Home <span class="sr-only">(current)</span></a>
                     </li>
 
                     <li class="nav-item">
-                        <a id="link_seconda" class="nav-link" href="#seconda" onclick="scroll_to('seconda');">Seconda</a>
+                        <a id="link_seconda" class="nav-link" href="#seconda" onclick="scroll_to('seconda');" style="margin-right: 40px">Presentazione</a>
                     </li>
 
                     <li class="nav-item">
-                        <a id="link_terza" class="nav-link" href="#terza" onclick="scroll_to('terza')">Terza</a>
+                        <a id="link_terza" class="nav-link" href="#terza" onclick="scroll_to('terza')" style="margin-right: 40px">Applicazioni</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a id="link_quarta" class="nav-link" href="#quarta" onclick="scroll_to('quarta')" style="margin-right: 40px">Caratteristiche</a>
                     </li>
 
                     <li class="nav-item dropdown">
@@ -140,6 +141,7 @@
     </div>
     <!-- .............................................DIV FADE UP.........................................................-->
     <div id="dummy_seconda" style="height: 350px;"></div>
+
     <!-- .............................................MESSAGE.........................................................-->
     <div id="seconda_wrapper" class="container py-5">
         <div class="row justify-content-center">
@@ -214,7 +216,7 @@
         </div>
     </div>
     <hr style="width: 70%;  ">
-    <!-- .............................................BANNER.........................................................-->
+    <!-- .............................................BANNER seconda.........................................................-->
     <div class="container my-4" style="border: 1px solid black;">
         <div class="row">
             <div class="col-sm-8">
@@ -232,9 +234,6 @@
             <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
         </div>
     </div>
-
-    <!-- .............................................DIV FADE UP.........................................................-->
-    <div id="dummy_terza" style="height: 350px;"></div>
 
     <!-- ..............................................CARDS........................................................-->
     <div class="container my-5">
@@ -279,20 +278,62 @@
         </div>
     </div>
 
-    <!-- ................................................DROPDOWN..................................................-->
-    <div class="dropdown">
-        <div class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Dropdown button
+    <!-- ...............................................JUMBOTRON QUARTA......................................................................-->
+    <div id="quarta" class="jumbotron jumbotron-fluid my-5 shadow-lg p-3" style="background: url(bg_dark.jpg) no-repeat center center; background-size: cover">
+        <div class="container text-light text-center">
+            <h1 class="display-4">Caratteristiche prodotto</h1>
+            <p class="lead">Sottotesto della quarta sezione</p>
         </div>
-        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <div class="container my-4" style="border: 1px solid black;">
-                <div class="row">
-                    <div class="col-sm-8">
-                        <h3 class="display-4">Titolo banner</h3>iti nulla est Lorem ipsum dolor snulla est Lorem ipsum dolor snulla est Lorem ipsum dolor snulla est Lorem ipsum dolor snulla est Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam quas, deleniti
-                        nulla est Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam quas, deleniti nulla est Lorem ipsum doriosam eaque.</p>
-                    </div>
-                    <div class="col-sm-4" style="background: url(slider.jpg) no-repeat center center; background-size: auto"></div>
+    </div>
+
+    <!-- .......................................................ACCORDION QUARTA......................................................................-->
+    <div class="container" style="margin-bottom: 10px">
+        <p class="display-4">Specifiche di prodotto</p>
+        <p class="lead">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad quasi mollitia vel. Non ratione rem magni, dolores inventore et molestias quod officiis tempora mollitia velit quo voluptatibus repellendus doloremque nostrum!</p>
+        <div id="accordion">
+
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            caratteristica 
+                          </button>
+                    </h5>
                 </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="card-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
+                        on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
+                        farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Ancora una specifica
+                          </button>
+                    </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                    <div class="card-body">
+                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
+                        on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
+                        farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- .............................................BANNER quarta.........................................................-->
+    <div class="container my-5" style="border: 1px solid black;">
+        <div class="row">
+            <div class="col-sm-4" style="background: url(slider.jpg) no-repeat center center; background-size: auto"></div>
+            <div class="col-sm-8">
+                <h3 class="display-4">Titolo banner</h3>iti nulla est Lorem ipsum dolor snulla est Lorem ipsum dolor snulla est Lorem ipsum dolor snulla est Lorem ipsum dolor snulla est Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam quas, deleniti nulla
+                est Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam quas, deleniti nulla est Lorem ipsum doriosam eaque.</p>
             </div>
         </div>
     </div>
@@ -305,9 +346,8 @@
         </div>
     </div>
 
-    <!-- ................................................FLIP CARD..................................................-->
-
-
+    <!-- ......................................................... FAB .............................................................-->
+    <button class="back-to-top" type="button"></button>
 
     <!-- ..............................................SCRIPT...................................................... -->
 
@@ -352,17 +392,27 @@
         });
     </script>
 
-    <!-- onscroll animate seconda -->
+    <!-- back to top FAB-->
     <script>
-        $(document).scroll(function() {
-            $("#dummy_terza").animate({
-                height: "0px",
-            }, 2000, function() {
-                // Animation complete.
-            });
+        var amountScrolled = 200;
+        var amountScrolledNav = 25;
 
+        $(window).scroll(function() {
+            if ($(window).scrollTop() > amountScrolled) {
+                $('button.back-to-top').addClass('show');
+            } else {
+                $('button.back-to-top').removeClass('show');
+            }
+        });
+
+        $('button.back-to-top').click(function() {
+            $('html, body').animate({
+                scrollTop: 0
+            }, 800);
+            return false;
         });
     </script>
+
 </body>
 
 </html>
