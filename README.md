@@ -1,4 +1,4 @@
-![picture] (https://github.com/corradodec/ItemPromoter/blob/master/Item%20Promoter/DCdev_logo.png)
+![picture](https://github.com/corradodec/ItemPromoter/blob/master/DC_logo_150x150.jpg)
 
 # ItemPromoter
 
